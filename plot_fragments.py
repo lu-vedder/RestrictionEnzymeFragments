@@ -12,7 +12,7 @@ INPUT:  Maximal value for plotting
 OUTPUT: Image file
 
 @author: Lucia Vedder
-@date: 2020, January 21 (Last update: 2021, November 24)
+@date: 2020, January 21 (Last update: 2023, August 01)
 """
 
 from Bio import SeqIO
@@ -66,10 +66,13 @@ def plot_histogram(lengths, name, max_val, rest_name, out_path, f):
     bin_size = 100
     if max_val == 500:
         val_txt = '500bp'
-        bin_size = 500
+        bin_size = 488
     
     title = name + ', cut with ' + rest_name
-    out = name.replace('. ', '_') + '_' + rest_name +'_' + val_txt + '.' + f
+    name = name.replace('(', '')
+    name = name.replace(')', '')
+    name = name.replace(' ', '_')
+    out = name.replace('.', '') + '_' + rest_name +'_' + val_txt + '.' + f
     plt.hist(l[:i], bin_size, color='green')
     plt.xlabel('Fragment length')
     plt.ylabel('Frequency')
