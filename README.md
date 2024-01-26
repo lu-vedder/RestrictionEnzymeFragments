@@ -21,6 +21,12 @@ Plot a histogram of the specified fragment file.
 **find_peaks.py**  
 Search for peaks in the restriction fragment distributions. A peak is defined as a count of single fragment length that deviates more than +-2*stdev from the mean of all counts up to 500bp.
 
+# Citation
+Please cite via Zenodo: [![DOI](https://zenodo.org/badge/563350631.svg)](https://zenodo.org/doi/10.5281/zenodo.10572873)
+
+# License
+Copyright (c) 2024 Lucia Vedder <br>
+For details see the [LICENSE](LICENSE) file.
 
 ---
 [1] Vedder, L. and Schoof, H. (2024): In silico restriction site analysis of whole genome sequences shows patterns caused by selection and sequence duplications. Heliyon. In review.
