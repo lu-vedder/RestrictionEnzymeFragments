@@ -1,6 +1,6 @@
 # RestrictionEnzymeFragments
 
-These python scripts are used for the restriction fragment analysis pubished by Vedder & Schoof (2023) [1].
+These python scripts are used for the restriction fragment analysis pubished by Vedder & Schoof (2024) [1].
 
 
 **genome_statistics.py**  
@@ -23,4 +23,4 @@ Search for peaks in the restriction fragment distributions. A peak is defined as
 
 
 ---
-[1] Vedder, L. and Schoof, H. (2023): In silico restriction site analysis of whole genome sequences shows patterns caused by selection and sequence duplications. PLOS ONE. In review.
+[1] Vedder, L. and Schoof, H. (2024): In silico restriction site analysis of whole genome sequences shows patterns caused by selection and sequence duplications. Heliyon. In review.
